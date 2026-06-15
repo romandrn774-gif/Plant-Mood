@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2B2B2B2B2B2B2B2B2B0001 /* PlantMoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0001 /* PlantMoodApp.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0002 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0002 /* CoreDataStack.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0003 /* PlantMood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0003 /* PlantMood.xcdatamodeld */; };
+		2B2B2B2B2B2B2B2B2B2B0004 /* PlantRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0004 /* PlantRepository.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0005 /* MoodRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0005 /* MoodRepository.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0006 /* WateringRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0006 /* WateringRepository.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0007 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0007 /* Plant.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0008 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0008 /* MoodEntry.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0009 /* WateringRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0009 /* WateringRecord.swift */; };
+		2B2B2B2B2B2B2B2B2B2B000A /* PlantTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A000A /* PlantTemplate.swift */; };
+		2B2B2B2B2B2B2B2B2B2B000B /* PlantListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A000B /* PlantListViewModel.swift */; };
+		2B2B2B2B2B2B2B2B2B2B000C /* PlantDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A000C /* PlantDetailViewModel.swift */; };
+		2B2B2B2B2B2B2B2B2B2B000D /* MoodLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A000D /* MoodLogViewModel.swift */; };
+		2B2B2B2B2B2B2B2B2B2B000E /* PhotoDiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A000E /* PhotoDiaryViewModel.swift */; };
+		2B2B2B2B2B2B2B2B2B2B000F /* CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A000F /* CatalogViewModel.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0010 /* WateringViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0010 /* WateringViewModel.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0011 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0011 /* MainTabView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0012 /* PlantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0012 /* PlantListView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0013 /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0013 /* PlantDetailView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0014 /* AddPlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0014 /* AddPlantView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0015 /* MoodLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0015 /* MoodLogView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0016 /* MoodChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0016 /* MoodChartView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0017 /* WateringCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0017 /* WateringCalendarView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0018 /* PhotoDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0018 /* PhotoDiaryView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0019 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0019 /* CatalogView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B001A /* PlantCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A001A /* PlantCardView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B001B /* MoodPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A001B /* MoodPickerView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B001C /* PlantAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A001C /* PlantAvatarView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B001D /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A001D /* EmptyStateView.swift */; };
+		2B2B2B2B2B2B2B2B2B2B001E /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A001E /* NotificationManager.swift */; };
+		2B2B2B2B2B2B2B2B2B2B001F /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A001F /* Color+Hex.swift */; };
+		2B2B2B2B2B2B2B2B2B2B0020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0020 /* Assets.xcassets */; };
+		2B2B2B2B2B2B2B2B2B2B0021 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A1A1A1A1A1A1A1A1A0021 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A1A1A1A1A1A1A1A1A1A0001 /* PlantMoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantMoodApp.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0002 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0004 /* PlantRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantRepository.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0005 /* MoodRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodRepository.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0006 /* WateringRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringRepository.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0007 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0008 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0009 /* WateringRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringRecord.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A000A /* PlantTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTemplate.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A000B /* PlantListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListViewModel.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A000C /* PlantDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailViewModel.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A000D /* MoodLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLogViewModel.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A000E /* PhotoDiaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDiaryViewModel.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A000F /* CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewModel.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0010 /* WateringViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringViewModel.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0011 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0012 /* PlantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0013 /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0014 /* AddPlantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0015 /* MoodLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLogView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0016 /* MoodChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodChartView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0017 /* WateringCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringCalendarView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0018 /* PhotoDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDiaryView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0019 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A001A /* PlantCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCardView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A001B /* MoodPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodPickerView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A001C /* PlantAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantAvatarView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A001D /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A001E /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A001F /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0021 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A0030 /* PlantMood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlantMood.xcdatamodel; sourceTree = "<group>"; };
+		1A1A1A1A1A1A1A1A1A1A00FF /* PlantMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantMood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D4D4D4D4D4D4D4D4D4D0005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C3C3C3C3C3C3C3C3C3C0001 = {
+			isa = PBXGroup;
+			children = (
+				3C3C3C3C3C3C3C3C3C3C0002 /* PlantMood */,
+				3C3C3C3C3C3C3C3C3C3C0013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C0002 /* PlantMood */ = {
+			isa = PBXGroup;
+			children = (
+				3C3C3C3C3C3C3C3C3C3C0003 /* App */,
+				3C3C3C3C3C3C3C3C3C3C0004 /* CoreData */,
+				3C3C3C3C3C3C3C3C3C3C0006 /* Models */,
+				3C3C3C3C3C3C3C3C3C3C0007 /* ViewModels */,
+				3C3C3C3C3C3C3C3C3C3C0008 /* Views */,
+				3C3C3C3C3C3C3C3C3C3C000F /* Notifications */,
+				3C3C3C3C3C3C3C3C3C3C0010 /* Utilities */,
+				3C3C3C3C3C3C3C3C3C3C0011 /* Resources */,
+				3C3C3C3C3C3C3C3C3C3C0012 /* Preview Content */,
+			);
+			path = PlantMood;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C0003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0001 /* PlantMoodApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C0004 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0002 /* CoreDataStack.swift */,
+				1A1A1A1A1A1A1A1A1A1A0003 /* PlantMood.xcdatamodeld */,
+				3C3C3C3C3C3C3C3C3C3C0005 /* Repositories */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C0005 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0004 /* PlantRepository.swift */,
+				1A1A1A1A1A1A1A1A1A1A0005 /* MoodRepository.swift */,
+				1A1A1A1A1A1A1A1A1A1A0006 /* WateringRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C0006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0007 /* Plant.swift */,
+				1A1A1A1A1A1A1A1A1A1A0008 /* MoodEntry.swift */,
+				1A1A1A1A1A1A1A1A1A1A0009 /* WateringRecord.swift */,
+				1A1A1A1A1A1A1A1A1A1A000A /* PlantTemplate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C0007 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A000B /* PlantListViewModel.swift */,
+				1A1A1A1A1A1A1A1A1A1A000C /* PlantDetailViewModel.swift */,
+				1A1A1A1A1A1A1A1A1A1A000D /* MoodLogViewModel.swift */,
+				1A1A1A1A1A1A1A1A1A1A000E /* PhotoDiaryViewModel.swift */,
+				1A1A1A1A1A1A1A1A1A1A000F /* CatalogViewModel.swift */,
+				1A1A1A1A1A1A1A1A1A1A0010 /* WateringViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C0008 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0011 /* MainTabView.swift */,
+				3C3C3C3C3C3C3C3C3C3C0009 /* Plants */,
+				3C3C3C3C3C3C3C3C3C3C000A /* Mood */,
+				3C3C3C3C3C3C3C3C3C3C000B /* Watering */,
+				3C3C3C3C3C3C3C3C3C3C000C /* PhotoDiary */,
+				3C3C3C3C3C3C3C3C3C3C000D /* Catalog */,
+				3C3C3C3C3C3C3C3C3C3C000E /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C0009 /* Plants */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0012 /* PlantListView.swift */,
+				1A1A1A1A1A1A1A1A1A1A0013 /* PlantDetailView.swift */,
+				1A1A1A1A1A1A1A1A1A1A0014 /* AddPlantView.swift */,
+			);
+			path = Plants;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C000A /* Mood */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0015 /* MoodLogView.swift */,
+				1A1A1A1A1A1A1A1A1A1A0016 /* MoodChartView.swift */,
+			);
+			path = Mood;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C000B /* Watering */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0017 /* WateringCalendarView.swift */,
+			);
+			path = Watering;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C000C /* PhotoDiary */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0018 /* PhotoDiaryView.swift */,
+			);
+			path = PhotoDiary;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C000D /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0019 /* CatalogView.swift */,
+				1A1A1A1A1A1A1A1A1A1A001A /* PlantCardView.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C000E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A001B /* MoodPickerView.swift */,
+				1A1A1A1A1A1A1A1A1A1A001C /* PlantAvatarView.swift */,
+				1A1A1A1A1A1A1A1A1A1A001D /* EmptyStateView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C000F /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A001E /* NotificationManager.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C0010 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A001F /* Color+Hex.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C0011 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0020 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C0012 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0021 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C3C3C3C3C3C3C3C3C3C0013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A00FF /* PlantMood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D4D4D4D4D4D4D4D4D4D0002 /* PlantMood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4D4D4D4D4D4D4D4D4D0009 /* Build configuration list for PBXNativeTarget "PlantMood" */;
+			buildPhases = (
+				4D4D4D4D4D4D4D4D4D4D0003 /* Sources */,
+				4D4D4D4D4D4D4D4D4D4D0005 /* Frameworks */,
+				4D4D4D4D4D4D4D4D4D4D0004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlantMood;
+			productName = PlantMood;
+			productReference = 1A1A1A1A1A1A1A1A1A1A00FF /* PlantMood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D4D4D4D4D4D4D4D4D4D0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					4D4D4D4D4D4D4D4D4D4D0002 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4D4D4D4D4D4D4D4D4D4D0006 /* Build configuration list for PBXProject "PlantMood" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 3C3C3C3C3C3C3C3C3C3C0001;
+			productRefGroup = 3C3C3C3C3C3C3C3C3C3C0013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D4D4D4D4D4D4D4D4D4D0002 /* PlantMood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D4D4D4D4D4D4D4D4D4D0004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2B2B2B2B2B2B2B2B2B0021 /* Preview Assets.xcassets in Resources */,
+				2B2B2B2B2B2B2B2B2B2B0020 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D4D4D4D4D4D4D4D4D4D0003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2B2B2B2B2B2B2B2B2B0001 /* PlantMoodApp.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0002 /* CoreDataStack.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0003 /* PlantMood.xcdatamodeld in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0004 /* PlantRepository.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0005 /* MoodRepository.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0006 /* WateringRepository.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0007 /* Plant.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0008 /* MoodEntry.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0009 /* WateringRecord.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B000A /* PlantTemplate.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B000B /* PlantListViewModel.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B000C /* PlantDetailViewModel.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B000D /* MoodLogViewModel.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B000E /* PhotoDiaryViewModel.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B000F /* CatalogViewModel.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0010 /* WateringViewModel.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0011 /* MainTabView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0012 /* PlantListView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0013 /* PlantDetailView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0014 /* AddPlantView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0015 /* MoodLogView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0016 /* MoodChartView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0017 /* WateringCalendarView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0018 /* PhotoDiaryView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B0019 /* CatalogView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B001A /* PlantCardView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B001B /* MoodPickerView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B001C /* PlantAvatarView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B001D /* EmptyStateView.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B001E /* NotificationManager.swift in Sources */,
+				2B2B2B2B2B2B2B2B2B2B001F /* Color+Hex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D4D4D4D4D4D4D4D4D4D0007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D4D4D4D4D4D4D4D4D4D0008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D4D4D4D4D4D4D4D4D4D000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlantMood/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "PlantMood uses the camera to capture photos of your plants for the mood diary.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "PlantMood saves plant photos to your library when you export them.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "PlantMood reads photos from your library to attach images to your plant's mood entries.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plant.mood.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D4D4D4D4D4D4D4D4D4D000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlantMood/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "PlantMood uses the camera to capture photos of your plants for the mood diary.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "PlantMood saves plant photos to your library when you export them.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "PlantMood reads photos from your library to attach images to your plant's mood entries.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plant.mood.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D4D4D4D4D4D4D4D4D4D0006 /* Build configuration list for PBXProject "PlantMood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4D4D4D4D4D4D4D4D4D0007 /* Debug */,
+				4D4D4D4D4D4D4D4D4D4D0008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4D4D4D4D4D4D4D4D4D0009 /* Build configuration list for PBXNativeTarget "PlantMood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4D4D4D4D4D4D4D4D4D000A /* Debug */,
+				4D4D4D4D4D4D4D4D4D4D000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A1A1A1A1A1A1A1A1A1A0003 /* PlantMood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A1A1A1A1A1A1A1A1A1A0030 /* PlantMood.xcdatamodel */,
+			);
+			currentVersion = 1A1A1A1A1A1A1A1A1A1A0030 /* PlantMood.xcdatamodel */;
+			path = PlantMood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D4D4D4D4D4D4D4D4D4D0001 /* Project object */;
+}
